@@ -1,0 +1,60 @@
+header {
+    background-image: url(portifolio_background2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1em;
+    text-align: left;
+    color: #000;
+  }
+  
+  body {
+    margin: 0;
+    text-align: center;
+    background-color: #FFFFFF
+  }
+  
+  h1, h3 {
+    font-family: 'Cookie', cursive;
+  }
+
+  p {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .flex_image img {
+    height: 400px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .extra-info {
+    margin: 10px;
+    padding: 5px;
+    border: 2px black solid;
+    box-shadow: 5px 4px;
+    text-decoration: underline;
+    background-color: #001EDB;
+    color: #FFFFFF;
+  }
+  
+  .extra-info:hover {
+    cursor: pointer;
+    background-color: orange;
+    text-decoration: none;
+  }
+  
+  .extra-info:active {
+    box-shadow: 0px 0px;
+    color: rgb(28, 196, 56);
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: url(portifolio_background.png);
+    background-size: cover;
+  }
